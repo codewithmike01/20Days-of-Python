@@ -29,3 +29,5 @@ t = (5, 6, 'mike')
 print(t)
 
 # Dictionary: This is a key and value pair data type
+d = {'name':'Mike', 'age':34, 'occupation':'Software Engineer'}
+print(d['name'])
