@@ -31,3 +31,7 @@ print(t)
 # Dictionary: This is a key and value pair data type
 d = {'name':'Mike', 'age':34, 'occupation':'Software Engineer'}
 print(d['name'])
+
+# Set it is unordered
+se = {23,45,2,'mike'}
+print(se)
