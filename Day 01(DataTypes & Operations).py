@@ -35,3 +35,6 @@ print(d['name'])
 # Set it is unordered
 se = {23,45,2,'mike'}
 print(se)
+
+# Boolean takes true of false
+b = True
