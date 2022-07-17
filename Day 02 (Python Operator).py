@@ -17,7 +17,12 @@ print(20//3)
 
 
 # ## Comparison operator
-# == equality 
-# != Not eqaul
-# > Greater 
+# > Greatertahn 
 # < Lessthan
+# == equality  Compare values
+#  is Compare memory location
+# >=  Greaterthan or equal
+# <=  Lesstahn or equal
+
+#  ## Identity Operators
+# != Not equal to
