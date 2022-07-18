@@ -10,3 +10,9 @@ elif num < num2:
 else:
     print('Both numbers are equal')
     
+
+# For loop
+for s in [3,5,7,12,90,2]:
+    print(s * 2)
+
+# While loop
