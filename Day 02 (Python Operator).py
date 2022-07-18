@@ -25,4 +25,5 @@ print(20//3)
 # <=  Lesstahn or equal
 
 #  ## Identity Operators
-# != Not equal to
+# != Not equal to 
+#  is not Compare memory location
