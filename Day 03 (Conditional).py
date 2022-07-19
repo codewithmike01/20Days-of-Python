@@ -29,3 +29,11 @@ n= 2
 while n <= 10:
         print('in while loop', n)
         n += 1
+
+# Assignment . Number which are divisible 
+
+# by 7 and 5 between 1500 and 2700 (both included)
+
+for value in range(1500, 2701):
+        if (value % 5 == 0 and value % 7 == 0):
+                print(value, ' is divisible by 5 and 7')
