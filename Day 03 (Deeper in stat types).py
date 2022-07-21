@@ -22,3 +22,6 @@ num = 12
 num2 = 14
 
 print('Value of num1 id {} value of num2 is {}'.format(num, num2))
+
+# Also
+print('Value of num1 id {val1} value of num2 is {val2}'.format(val1 = 50, val2 = 40))
