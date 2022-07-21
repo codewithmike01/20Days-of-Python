@@ -40,3 +40,12 @@ print(s1.split(','))
 
 s2 = ['Html', ' css', ' javascript']
 print((' ').join(s2))
+
+# Maketrans and translate
+a = 'Gooddys'
+b = 'Unknown'
+sc = 'The character of sam is Gooddys'
+
+trans = str.maketrans(a,b)
+result = sc.translate(trans)
+print(result)
