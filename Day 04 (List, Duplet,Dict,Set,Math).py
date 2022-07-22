@@ -70,3 +70,9 @@ d['age'] = 43
 
 print(d['name'])
 print(d)
+
+# Update
+d1 = {'name':'mike','home':'alaska'} 
+d2 = {'age',34}
+d1.update(d2)
+print(d1)
