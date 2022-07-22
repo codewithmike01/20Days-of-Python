@@ -72,7 +72,14 @@ print(d['name'])
 print(d)
 
 # Update
-d1 = {'name':'mike','home':'alaska'} 
-d2 = {'age',34}
-d1.update(d2)
-print(d1)
+# d1 = {'name':'mike','home':'alaska'} 
+# d2 = {'age',34}
+# d1.update(d2)
+# print(d1)
+
+
+# Set
+# sets are mutable 
+# All elements should be unique
+# It is unordered
+s = {3,4,6,2,7}
