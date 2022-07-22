@@ -32,3 +32,41 @@ print(l)
 l2 = l.copy()
 l.append('last born')
 print(l, l2)
+
+# Pop remove from the last and also by index if argument passed
+# Remove : remove element by value
+# Clear : to delete all element in the list, return empty list
+# del : delete the list 
+
+# sort a list. sorts the original list
+
+l3 = [30,20.70,12,3,5]
+l3.sort()
+# or l4 = sorted(l3)
+print(l3)
+
+# reverse a list
+print(l3[::-1])
+
+
+
+#  ## Tuple
+#  alone have splicing , index and count
+t = (9,3,5, 'hello')
+print(t)
+# index 
+print(t[2])
+
+# converting tuble to list
+lis = list(t)
+print(lis)
+
+# ## Dict It has a key and a value
+# Dictionary are mutable, 
+
+
+d = {'name': 'Mike'}
+d['age'] = 43
+
+print(d['name'])
+print(d)
