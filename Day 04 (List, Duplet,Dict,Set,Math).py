@@ -83,3 +83,14 @@ print(d)
 # All elements should be unique
 # It is unordered
 s = {3,4,6,2,7}
+
+# To add elements
+
+s.add(600)
+print(s)
+
+# Operations/method
+# Union
+# difference
+# intersection
+help(set)
