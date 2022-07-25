@@ -27,3 +27,13 @@ print(result)
 
 
   #  ## examples 
+
+s = "ABCDE1234A"
+# specify the reg
+r = re.compile("[A-Z]{5}[0-9]{4}[A-Z]")
+l = re.findall(r,s)
+print(l)
+
+s = "8123456789"
+r2 = re.compile("^[1-9][0-9]{9}$")
+print(re.findall(r2,s))
