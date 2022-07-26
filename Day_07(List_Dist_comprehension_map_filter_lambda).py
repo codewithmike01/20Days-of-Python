@@ -4,6 +4,7 @@
 # List comprehension is usful in
 # performing task quickly
 # Code without list comprehemsion
+
 l = [2,3,4,5,6,7]
 l2 = []
 for value in l:
@@ -44,3 +45,21 @@ print(d)
 s= { value**2 for value in range(2,5)}
 
 print(s, type(s))
+
+
+# Map is a function which takes another function as arguments
+
+def get_sqr(num):
+    return num * num 
+
+
+
+lm = [3,5,8,9,1]
+result = map(get_sqr,lm)
+# By default it returns a map object
+# <map object at 0x7f67fe02df40>
+print(result)
+
+# Converting map object to list
+print(list(result))
+# Or result = list(map(get_sqr,lm)) 
