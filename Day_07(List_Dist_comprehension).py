@@ -24,3 +24,8 @@ print(lce2)
 lca = ['hello','bobby','sammy','hopvelyn']
 lca2 = [len(value) for value in lca]
 print(lca2)
+
+# For multiple output
+lmo = [200,5,10,12,34]
+lmo2 = ['Even' if value % 2 == 0 else 'Odd'  for value in lmo]
+print(lmo2)
