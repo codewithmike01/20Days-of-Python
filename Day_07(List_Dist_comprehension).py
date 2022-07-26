@@ -19,3 +19,8 @@ print(lc2)
 lce = [23,7,12,90,6,10]
 lce2 = [value for value in lce if value % 2 == 0]
 print(lce2)
+
+# Finfing the length of strings in an array
+lca = ['hello','bobby','sammy','hopvelyn']
+lca2 = [len(value) for value in lca]
+print(lca2)
