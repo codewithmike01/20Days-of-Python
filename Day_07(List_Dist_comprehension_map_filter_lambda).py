@@ -76,3 +76,17 @@ lf = [40,20,17,15,4]
 result_f = list(filter(get_odd,lf))
 
 print(result_f)
+
+
+# ### Lambda is also called anonymous function
+# it works well with Map functions
+# You can not do item assignment
+# Use lambda when your function is small
+
+
+lm = [3,5,8,9,1]
+result = list(map(lambda num1: num1*num1,lm))
+print(result)
+
+
+
