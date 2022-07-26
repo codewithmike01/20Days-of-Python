@@ -1,3 +1,6 @@
+ # List, Dict and Set Comprehension
+# Map. filter, and lambda
+
 # List comprehension is usful in
 # performing task quickly
 # Code without list comprehemsion
