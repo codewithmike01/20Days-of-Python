@@ -97,3 +97,28 @@ result_l = list(filter(lambda num: num%2==0,lf))
 print(result_l)
 
 # Generator function
+# It makes use of yeild in the function
+# which gves one value at a time
+# Below is a fibonacci sequence 
+# 
+# 
+
+def fibo():
+    first_num = 0
+    second_num = 1
+    while(True):
+        next_val = first_num + second_num
+        # Avoiding endless loop
+        # so the state if the next value is present 
+        # and excecution starts from the yeild when called
+        yield next_val
+        first_num, second_num = second_num , next_val
+
+
+g = fibo()
+# This prints a generator object
+print(g)
+
+# To see the values use next() function fior each values 
+print(next(g))
+print(next(g))
