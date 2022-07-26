@@ -122,3 +122,5 @@ print(g)
 # To see the values use next() function fior each values 
 print(next(g))
 print(next(g))
+
+# Using genrator saves memory usage
