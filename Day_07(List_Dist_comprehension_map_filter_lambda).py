@@ -95,3 +95,5 @@ ll = [40,20,17,15,4]
 result_l = list(filter(lambda num: num%2==0,lf))
 
 print(result_l)
+
+# Generator function
