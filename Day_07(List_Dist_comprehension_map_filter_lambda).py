@@ -63,3 +63,14 @@ print(result)
 # Converting map object to list
 print(list(result))
 # Or result = list(map(get_sqr,lm)) 
+
+
+# #### Filter
+def get_odd(num):
+    if (num % 2 != 0):
+        return num
+
+lf = [40,20,17,15,4]
+result_f = list(filter(get_odd,lf))
+
+print(result_f)
