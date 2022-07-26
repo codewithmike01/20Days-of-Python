@@ -45,3 +45,7 @@ file.write('I am the writing boy')
 file.seek(0,0)
 content = file.read()
 print(content)
+file.close()
+
+# a a+ cursor position is defaultly at the end 
+# a+ can read and write 
