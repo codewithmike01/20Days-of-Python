@@ -1,6 +1,5 @@
 # List comprehension is usful in
 # performing task quickly
-
 # Code without list comprehemsion
 l = [2,3,4,5,6,7]
 l2 = []
@@ -17,3 +16,6 @@ print(lc2)
 
 # Finding even numbers in a list
 # Using loop comprehension
+lce = [23,7,12,90,6,10]
+lce2 = [value for value in lce if value % 2 == 0]
+print(lce2)
