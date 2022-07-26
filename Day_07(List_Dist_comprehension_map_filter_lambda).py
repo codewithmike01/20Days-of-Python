@@ -80,6 +80,7 @@ print(result_f)
 
 # ### Lambda is also called anonymous function
 # it works well with Map functions
+#  though it also works on filter
 # You can not do item assignment
 # Use lambda when your function is small
 
