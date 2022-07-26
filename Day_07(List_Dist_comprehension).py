@@ -29,3 +29,15 @@ print(lca2)
 lmo = [200,5,10,12,34]
 lmo2 = ['Even' if value % 2 == 0 else 'Odd'  for value in lmo]
 print(lmo2)
+
+# ## Comprehension on Dist
+
+d={ x:x**2 for x in range(0,8)}
+print(d)
+
+
+
+# Comprehention in Set
+s= { value**2 for value in range(2,5)}
+
+print(s, type(s))
