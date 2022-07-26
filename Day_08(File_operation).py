@@ -1,8 +1,8 @@
 # Modes of file open
 # r read mode
-# r+
+# r+ read and append a write
 # w  write
-# w+
+# w+ write and read
 # a  append
 # a+
 
@@ -26,5 +26,22 @@ print(content)
 
 #  #### Opening file as Write
 
-file = open('text_write','w')
+# just write use w
+file = open('text_write','w+')
 file.write('I am the writing boy')
+
+# Changing pointer position
+# tell to tell you where the pointer is located
+# seek to change the cyrretn pointer position
+
+# file.tell()
+# seek has
+  #  offset -- number of charaters
+  #  position
+    # 0 is start
+    # 1 current position of pointer
+    # 2 end
+# seek(0,0) thats 0 chaacters and cursor to the start
+file.seek(0,0)
+content = file.read()
+print(content)
