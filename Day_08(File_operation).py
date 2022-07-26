@@ -16,5 +16,15 @@ content = file.read()
 # file.read(20) thats 20 character;
 print(content)
 
+# for x in content:
+#     print(x)
+# file.close()
+
 # Using read gets the text as string
 # Using readline() prints each line separated by a newline character \n
+
+
+#  #### Opening file as Write
+
+file = open('text_write','w')
+file.write('I am the writing boy')
