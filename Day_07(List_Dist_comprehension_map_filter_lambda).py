@@ -68,7 +68,9 @@ print(list(result))
 # #### Filter
 def get_odd(num):
     if (num % 2 != 0):
-        return num
+        return True
+    else:
+        return False
 
 lf = [40,20,17,15,4]
 result_f = list(filter(get_odd,lf))
