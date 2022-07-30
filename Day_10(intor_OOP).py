@@ -2,6 +2,11 @@
 # defining a class
 class Account:
     def __init__(self, cust_id, name, initial_bal= 0):
+          # To make a private varible
+          # use double underscore
+          # self.__variableName
+          # Then you will need a getter and setter method
+          # To access it outside the class
           self.id = cust_id
           self.name = name
           self.balance = initial_bal
