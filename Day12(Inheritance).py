@@ -1,3 +1,6 @@
+# INheritance
+# Multiple inheritance
+
 class Account:
     count = 0
     # Class methods
@@ -76,3 +79,19 @@ print(result)
 
 result = cust1.withdraw(3000)
 print(result)
+
+
+# Multiple inheritance
+
+# if class A and B 
+# And i want C to inherit form A and B
+
+class A_a:
+    pass
+
+class B_b:
+    pass
+
+# Inheritance
+class C (A_a, B_b):
+    pass
