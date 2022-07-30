@@ -54,4 +54,25 @@ customer3 = Account(3, 'Samson')
 
 
 class Savings(Account):
-    pass;
+    
+    def __init__(self, cust_id, name, initial_bal = 0):
+        super().__init__(cust_id , name, initial_bal )
+        self.limit = 5000
+      
+    def withdraw(self, amount):
+        if amount < self.limit:
+            bal_result = super().withdraw(amount)
+            self.limit -= amount
+            return bal_result
+        else:
+            return 'You can not withdraw above the limit set'
+
+
+cust1 = Savings(5, 'Ovie')
+print(cust1)
+cust1.deposit(1000)
+result = cust1.get_balance()
+print(result)
+
+result = cust1.withdraw(3000)
+print(result)
