@@ -20,3 +20,6 @@ print(soup.prettify())
 # find('a') -> Finds the first anchor tag
 # find_all('img;) -> Finds all image tags
 # find_parent('img') -> Finds parent tag
+
+
+# find('<tag_name>', attr = {"class": "<class_name>"})
