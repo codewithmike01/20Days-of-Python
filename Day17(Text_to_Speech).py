@@ -7,24 +7,12 @@ import pyttsx3
 
 engine = pyttsx3.init()
 
-# See voices my machine has
-#-------------------------------------------
-# for voice in engine.getProperty("voices"):
-#     print(voice)
-#---------------------------------------------
-# <Voice id=french
-#           name=french
-#           languages=[b'\x05fr-fr']
-#           gender=male
-#           age=None>
-
 voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[10].id)
 
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
-
 
 text = input('Enter any text to convert to speech: ')
 
